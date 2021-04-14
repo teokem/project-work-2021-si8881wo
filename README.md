@@ -11,7 +11,7 @@ The notebook evaluation.ipynb explaines how to read these data files and perform
 The full results are currently being used to prepare a manuscript.
 
 # Running the notebooks
-If you don't want to install anything you can simply use the following binder link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teokem/project-work-2021-si8881wo/HEAD)
+If you don't want to install anything you can simply use the following binder link (note that the interactive plot does not work in Binder): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teokem/project-work-2021-si8881wo/HEAD)
 
 To run it locally on your computer simply download this repo and unzip it.
 I'm assuming you have a conda installation and can run jupyter notebook.
@@ -23,7 +23,6 @@ Open a jupyter notebook instance as usual and whenever you start one of the note
 # Used Julia Packages
 * [Plots](http://docs.juliaplots.org): for plotting, similar to matplotlib in python (has several backends e.g. GR, PyPlot, plotly and several more)
 * [StatsPlots](https://github.com/JuliaPlots/StatsPlots.jl): extends the Plots package for common statistics plots and contains plot recepies for DataFrames
-* [PyPlot](https://github.com/JuliaPy/PyPlot.jl): plotting backend for the Plots package, not explicitly loaded but needed when changing to pyplot as backend
 * [Interact](https://juliagizmos.github.io/Interact.jl/latest/): for interactive plot widgets, sliders, etc.
 * [WebIO](https://github.com/JuliaGizmos/WebIO.jl): not explicitly loaded, but needed for interactive plots
 * [LaTeXStrings](https://github.com/stevengj/LaTeXStrings.jl): for LaTeX type setting in the plot labels
