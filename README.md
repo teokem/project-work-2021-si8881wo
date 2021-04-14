@@ -2,11 +2,11 @@
 This project consists of two notebooks that are using the [Julia](https://julialang.org) programming language.
 Some physics background is provided in the first notebook.
 
-In the notebook fbs.ipynb we want to discuss a way to determine a specific parameter for numerical simulation.
+In the notebook [fbs.ipynb](fbs.ipynb) we want to discuss a way to determine a specific parameter for numerical simulation.
 This procedure has been used to determine numerical parameters for simulations with a bigger Julia program (may be added to this repo at some later stage).
 
 The results of those simulations are a large number of .csv files and in the data folder there is a small sample set of the data.
-The notebook evaluation.ipynb explaines how to read these data files and perform a typical analysis.
+The notebook [evaluation.ipynb](evaluation.ipynb) explaines how to read these data files and perform a typical analysis.
 
 The full results are currently being used to prepare a manuscript.
 
