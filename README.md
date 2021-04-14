@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/351403602.svg)](https://zenodo.org/badge/latestdoi/351403602)
+
 # Introduction
 This project consists of two notebooks that are using the [Julia](https://julialang.org) programming language.
 Some physics background is provided in the first notebook.
