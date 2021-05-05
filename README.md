@@ -20,7 +20,8 @@ I'm assuming you have a conda installation and can run jupyter notebook.
 Install Julia (download it from the [official website](https://julialang.org/downloads/) and follow the installation instructions.), if you haven't already and make sure to add the kernel to jupyter notebook (instructions for example [here](https://github.com/JuliaLang/IJulia.jl)).
 
 Open a jupyter notebook instance as usual and whenever you start one of the notebooks the Project.toml (and Manifest.toml) should be detected automatically (corresponds to environments in python).
- 
+
+In any case now you can either run the cells sequentially or choose to run all by going to 'Run->Run all cells' in the dropdown menues. 
 
 # Used Julia Packages
 * [Plots](http://docs.juliaplots.org): for plotting, similar to matplotlib in python (has several backends e.g. GR, PyPlot, plotly and several more)
